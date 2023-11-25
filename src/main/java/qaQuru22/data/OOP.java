@@ -4,7 +4,10 @@ public class OOP {
 
     public static void main(String[] args) {
 
-        Card someCard = new Card();
+        card visaCard = new VisaCard();
+
+        visaCard.balance = 100 ;
+        System.out.println(visaCard.getPaymentSys());
 
 
 
